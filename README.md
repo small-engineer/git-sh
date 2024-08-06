@@ -1,13 +1,13 @@
-# print_groups.shの使い方
+# list_repo.shの使い方
 
 このスクリプトは、指定したGitレポジトリのディレクトリ構造とファイル一覧を表示し、複数のレポジトリが指定された場合には、それらの変更差分を表示します。クローン時のメッセージは非表示にします。
 
 ## 使用方法
 
-1. スクリプトファイルを作成し、例えば `print_groups.sh` という名前で保存します。
+1. スクリプトファイルを作成し、例えば `list_repo.sh` という名前で保存します。
 2. スクリプトに実行権限を付与します：
    
-   chmod +x print_groups.sh
+   chmod +x list_repo.sh
 
 3. スクリプトを実行します：
 
@@ -24,15 +24,15 @@
 
 - 現在のディレクトリがGitレポジトリの場合：
 
-   ./print_groups.sh
+   ./list_repo.sh
 
 - レポジトリURL1のディレクトリ構造とファイル一覧を表示：
 
-   ./print_groups.sh <レポジトリURL1>
+   ./list_repo.sh <レポジトリURL1>
 
 - レポジトリURL1とレポジトリURL2の変更差分を表示：
 
-   ./print_groups.sh <レポジトリURL1> <レポジトリURL2>
+   ./list_repo.sh <レポジトリURL1> <レポジトリURL2>
 
 `<レポジトリURL1>` と `<レポジトリURL2>` は、参照したいGitレポジトリのURLに置き換えてください。
 
